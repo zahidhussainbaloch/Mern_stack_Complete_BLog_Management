@@ -1,0 +1,48 @@
+.Registration{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5)), url('https://thumbs.dreamstime.com/b/abstract-background-design-businessman-holding-smartphone-forgot-password-to-username-password-internet-browser-smartp-217804181.jpg');
+    background-size: cover;
+}
+.RegistrationTitle{
+     
+   font-size: 50px;
+}
+.RegistrationForm{
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm > label{
+   margin: 10px 0;
+}
+.registrationInput{
+   padding: 10px;
+   background-color:white;
+   border: none;
+}
+
+.registrationButton{
+   margin-top: 20px;
+   cursor: pointer;
+   background-color: teal;
+   border: none;
+   color: white;
+   border-radius: 10px;
+   pad: 10px;
+}
+.registrationloginButton{
+   position: absolute;
+   top: 60px;
+   right: 20px;
+   background-color: lightcoral;
+   cursor: pointer;
+   border: none;
+   color: white;
+   border-radius: 10px;
+}
